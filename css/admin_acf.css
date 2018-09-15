@@ -1,0 +1,9 @@
+/*
+  These styles are used in admin area for better wizard presentation
+*/
+.toplevel_page_acf-options-wizard .acf-checkbox-list li {
+  width: 32%;
+  padding-right: 15px;
+  display: inline-block;
+  box-sizing: border-box;
+}
