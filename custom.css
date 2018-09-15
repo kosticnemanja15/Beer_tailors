@@ -1,0 +1,1068 @@
+/*
+CUSTOM CSS
+
+Izmene u CSSu nakon kreiranja templejta se postavljaju ovde.
+Developer iz ovog CSSa korekcije treba da integrise u glavni style.css
+
+*/
+
+#main {
+  /*width: auto;*/
+  width: 81%;
+  max-width: 948px;
+  height: 520px;
+  margin: 0px auto;
+  border:solid 1px #b2b3b5;
+  padding:0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color:#feba01;
+  position: relative;
+}
+
+fieldset {
+  border:none;
+}
+
+legend {
+  font-size:18px;
+  margin:0px;
+  padding:10px 0px;
+  color:#b0232a;
+  font-weight:bold;
+  border-bottom: none;
+  display: none;
+}
+label {
+  display:block;
+  margin:5px 0 5px;
+}
+.left-finish input {
+  width:330px;
+  padding:5px;
+  border:solid 1px #000;
+}
+.rigth-finish > input{
+  width:330px;
+  border:solid 1px #000;
+}
+.checkbox-terms > label > input {
+  width:10px;
+}
+.prev, .next {
+  background-color:#fff;
+  padding:8px 15px;
+  margin-bottom: 0;
+  box-shadow: 5px 5px;
+  color:#000;
+  text-decoration:none;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.prev {
+  position: absolute;
+  top:81%;
+  left: 5%;
+}
+.next {
+  position: absolute;
+  top:81%;
+  left: 85%;
+}
+
+.prev:hover, .next:hover {
+  text-decoration:none;
+  color: #000;
+
+}
+.prev {
+  float:left;
+}
+.next {
+  float:right;
+}
+
+#steps {
+  list-style:none;
+  width:100%;
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+  background: #111111;
+  border-bottom:none;
+}
+#steps li {
+  font-size: 16px;
+  text-transform: uppercase;
+  float:left;
+  padding:10px;
+  width: 25%;
+  color:#fff;
+}
+#steps li span {
+  font-size:22px;
+  text-transform: none;
+  font-weight: bold;
+  display:block;
+}
+#steps li.current {
+  color:#000;
+  background-color:#feba01;
+}
+
+
+
+h4 {
+  color: #000;
+  font-weight: bold;
+}
+h4 span {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#SaveAccount {
+  position: absolute;
+  z-index: 1000;
+  top: 85%;
+  left: 83%;
+  color: #fff;
+  border:none;
+  box-shadow: 2px 5px #000;
+  background-color: #fff;
+  padding: 8px 15px;
+  margin-bottom: 0;
+  box-shadow: 2px 5px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#SaveAccount:hover {
+  color: #FFF;
+  background: #000;
+  font-weight: 800;
+}
+.form-control {
+  margin-top: 10px;
+  width:350px;
+  font-size: 12px;
+  font-weight: 800;
+  border: 1px solid #000;
+  height: 30px;
+}
+
+.beer-style {
+  position: absolute;
+  top:24%;
+  left: 6%;
+}
+.alcohol-strength {
+  position: absolute;
+  top: 42%;
+  left: 6%;
+}
+.bitterness {
+  position: absolute;
+  top: 61%;
+  left: 6%;
+}
+
+.additions {
+  position: absolute;
+  top: 25%;
+  left: 62%;
+}
+.additions h4 {
+  margin-bottom: 10px;
+  margin-left: 0;
+
+}
+
+#additions-list.radio label, .checkbox label  {
+  font-weight: bold;
+}
+
+#additions-list .checkbox input {
+  margin-right: 6px;
+}
+
+#other-addition {
+  position: absolute;
+  top: 85%;
+  left: 46%;
+  width: 200px;
+}
+#need-help1 {
+  text-decoration: underline;
+  position: absolute;
+  left: 36%;
+  top: 21%;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+#bottle h4 {
+  margin-left: 286px;
+  margin-top: 26px;
+  margin-bottom: 2px;
+  font-weight: 800;
+}
+#bottle .form-control {
+  text-align: center;
+  margin: 0 auto;
+}
+#need-help2 {
+  text-decoration: underline;
+  position: absolute;
+  left:61%;
+  top: 21%;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+#bottle .image-holder {
+  background: #FFF;
+  width: 348px;
+  height: 276px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 20px;
+}
+#bottle .image-holder img {
+  margin: 0 auto;
+  max-width: 348px;
+  max-height: 276px;
+  padding: 10px;
+}
+
+#label .form-control {
+  text-align: center;
+  margin: 0 auto;
+}
+#label h4 {
+  margin-left: 286px;
+  margin-top: 26px;
+  margin-bottom: 2px;
+  font-weight: 800;
+}
+#need-help3 {
+  text-decoration: underline;
+  position: absolute;
+  left:61%;
+  top: 21%;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+#label .image-holder {
+  background: #FFF;
+  width: 348px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 20px;
+}
+#label .image-holder h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#label .image-holder p {
+  margin: -9px 0 10px;
+}
+#label .image-holder img {
+  margin: 0 auto;
+  max-width: 348px;
+  max-height: 190px;
+  padding-top: 0;
+}
+#finish {
+  padding: 4% 4% 0;
+}
+#finish input {
+  padding: 8px;
+  margin: 20px 0;
+}
+textarea.form-control {
+  width: 330px;
+  height: 100px;
+}
+.rigth-finish {
+  /*margin-left: -100px;*/
+}
+.rigth-finish p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+#checkbox-terms span {
+  margin-top: 10px;
+  color: #000;
+}
+#finish input {
+  font-weight: bold;
+}
+
+.modal a.close-modal {
+  display: none;
+}
+
+.modal.help-tutorial {
+  max-width: 1110px;
+}
+
+/*=====================================RESPONSIVE====================================*/
+
+
+@media only screen and (max-width: 1200px ) {
+
+  #other-addition {
+    width: 162px;
+  }
+  .additions {
+    left: 56%;
+  }
+  .next {
+    top: 85%;
+    left: 83%;
+  }
+  .prev {
+    top: 85%;
+    left: 4%;
+  }
+
+  #need-help1 {
+    left: 42%;
+  }
+
+  #bottle #need-help2  {
+    left: 63%;
+  }
+  #bottle h4 {
+    margin-left: 216px;
+  }
+
+  #label #need-help3  {
+    left: 63%;
+  }
+  #label h4 {
+    margin-left: 216px;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 990px ) {
+
+  .next{
+      left:80%;
+     }
+
+  .form-control {
+    width: 216px;
+  }
+  #need-help1 {
+    left: 30%;
+  }
+  .additions {
+    left: 51%;
+  }
+  #other-addition {
+    left: 43%; 
+    }
+  #bottle .form-control {
+    width: 300px;
+  }
+  #bottle .image-holder {
+    width: 300px;
+    height: 294px;
+  }
+  #bottle h4 {
+    margin-left: 142px;
+  }
+  #bottle .image-holder img {
+    max-width: 33%;
+    margin-top: 16px;
+  }
+  #bottle #need-help2 {
+    top: 19%;
+  }
+  #label .form-control {
+    width: 300px;
+  }
+  #label .image-holder {
+    width: 300px;
+  }
+  #label h4 {
+    margin-left: 142px;
+  }
+  #label .image-holder img {
+    max-width: 64%;
+    
+  }
+  #label #need-help3 {
+    top: 19%;
+  }
+  #finish {
+    padding-top: 2%;
+  }
+
+  #finish .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #finish input {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+  }
+   #finish #order-tos {
+    width: 10px;
+  }
+
+  #finish textarea {
+      width: 100%;
+  }
+
+  .left-finish input {
+    width: 350px;
+    margin: 0;
+  }
+  .rigth-finish {
+    margin-left: 0;
+  }
+  textarea.form-control {
+    width: 350px;
+  }
+  .rigth-finish p {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  #checkbox-terms label {
+    margin-top: -3px;
+  }
+  #SaveAccount {
+    top: 85%;
+    left: 82%;
+  }
+
+  #main {
+    height: 590px;
+  }
+}
+
+@media only screen and (max-width: 770px ) {
+
+  .form-control {
+    width: 300px;
+  }
+  #need-help1 {
+    left: 68%;
+    top: 18%;
+  }
+  .beer-style {
+    top: 20%;
+    left: 16%;
+  }
+  .alcohol-strength {
+    top: 29%;
+    left: 16%;
+  }
+  .bitterness {
+    top: 38%;
+    left: 16%;
+  }
+  .additions {
+    top: 47%;
+    left: 16%;
+  }
+  .additions h4 {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  #additions-list label {
+    display: block;
+    margin: -6px 0 5px;
+  }
+  #other-addition {
+    top: 83%;
+    left: 42%;
+  }
+  .next {
+    left: 72%;
+  }
+  #bottle .form-control {
+    width: 260px;
+  }
+  #bottle .image-holder {
+    width: 262px;
+    height: 264px;
+  }
+  #bottle h4 {
+    margin-left: 90px;
+    margin-bottom: 3px;
+  }
+  #bottle .image-holder img {
+    margin-top: 0px;
+  }
+  
+  #bottle #need-help2 {
+    left: 63%;
+    top: 19%;
+  }
+  #label .form-control {
+    width: 260px;
+  }
+  #label .image-holder {
+    width: 260px;
+  }
+  #label h4 {
+    margin-left: 90px;
+    margin-bottom: 3px;
+  }
+  #label .image-holder img {
+    max-width: 74%;
+  }
+  #label #need-help3 {
+    left: 63%;
+    top: 19%;
+  }
+  #finish {
+    /*padding-left: 14%;*/
+  }
+  #SaveAccount {
+    left: 72%;
+  }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 660px ) {
+  .form-control {
+    width: 300px;
+  }
+  #need-help1 {
+    left: 68%;
+    top: 18%;
+  }
+  .beer-style {
+    top: 20%;
+    left: 15%;
+  }
+  .alcohol-strength {
+    top: 29%;
+    left: 15%;
+  }
+  .bitterness {
+    top: 38%;
+    left: 15%;
+  }
+  .additions {
+    top: 47%;
+    left: 15%;
+  }
+  .additions h4 {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  #additions-list label {
+    display: block;
+    margin: -6px 0 5px;
+  }
+  #other-addition {
+    top: 83%;
+    left: 42%;
+  }
+  .next {
+    left: 70%;
+  }
+  #bottle .form-control {
+    width: 260px;
+  }
+  #bottle .image-holder {
+    width: 262px;
+    height: 264px;
+  }
+  #bottle h4 {
+    margin-left: 88px;
+    margin-bottom: 3px;
+  }
+
+  #bottle #need-help2 {
+    left: 64%;
+    top: 19%;
+  }
+  #label .form-control {
+    width: 260px;
+  }
+  #label .image-holder {
+    width: 260px;
+  }
+  #label h4 {
+    margin-left: 88px;
+    margin-bottom: 3px;
+  }
+  #label .image-holder img {
+    max-width: 74%;
+  }
+  #label #need-help3 {
+    left: 64%;
+    top: 19%;
+  }
+  #finish {
+    /*padding-left: 14%;*/
+  }
+  #SaveAccount {
+    left: 70%;
+  }
+
+}
+
+
+@media only screen and (max-width: 590px ) {
+
+  #steps li span {
+    font-size: 15px;
+  }
+  #steps li {
+    font-size: 8px;
+  }
+  #need-help1 {
+    left: 69%;
+    top: 13%;
+  }
+  .beer-style {
+    top: 15%;
+    left: 16%;
+  }
+  .alcohol-strength {
+    top: 23%;
+    left: 16%;
+  }
+  .bitterness {
+    top: 31%;
+    left: 16%;
+  }
+  .additions {
+    top: 43%;
+    left: 16%;
+  }
+  .next {
+    left: 72%;
+    top: 88%;
+  }
+  .prev {
+    top: 88%;
+    left: 5%;
+  }
+ 
+  #bottle #need-help2 {
+    top: 15%;
+    }
+    #label #need-help3 {
+    top: 15%;
+    }
+  #label .image-holder {
+    height: 208px;
+  }
+  #label .image-holder h2 {
+    margin-top: 40px;
+  }
+  #SaveAccount {
+    top: 90%;
+  }
+
+}
+
+
+@media only screen and (max-width: 540px ) {
+
+  #need-help1 {
+    left: 72%;
+  }
+  .next {
+    left: 70%;
+  }
+
+  #bottle h4 {
+    margin-left: 84px;
+  }
+  #bottle #need-help2 {
+    left: 64%;
+  }
+  #label h4 {
+    margin-left: 84px;
+  }
+  #label #need-help3 {
+    left: 64%;
+  }
+  #finish {
+    padding-left: 5%;
+  }
+  #SaveAccount {
+    left: 75%;
+    top: 88%;
+  }
+}
+
+@media only screen and (max-width: 460px ) {
+
+  #main {
+    width: 100%;
+  }
+  .form-control {
+    width: 318px;
+  }
+  #need-help1 {
+    left: 69%;
+  }
+  .beer-style {
+    left: 15%;
+  }
+  .alcohol-strength {
+    left: 15%;
+  }
+  .bitterness {
+    left: 15%;
+  }
+  .additions {
+    left: 15%;
+  }
+  #bottle .form-control {
+    width: 350px;
+  }
+  #bottle h4 {
+    margin-left: 52px;
+  }
+  #bottle #need-help2 {
+    left: 73%;
+  }
+  #bottle .image-holder {
+    width: 350px;
+  }
+  #bottle .image-holder img {
+    max-width: 24%;
+}
+  #label .form-control {
+    width: 350px;
+  }
+  #label h4 {
+    margin-left: 52px;
+  }
+  #label #need-help3 {
+    left: 73%;
+  }
+  #label .image-holder {
+    width: 350px;
+  }
+  #label .image-holder img {
+    max-width: 57%;
+  }
+  #finish {
+    padding-left: 3%;
+    margin-top: 10px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 420px ) {
+
+
+
+  #main {
+    height:464px;
+  }
+
+  .order-main {
+    margin-bottom: -68px;
+    margin-top: -63px;
+    
+  }
+  .next {
+    top: 88%;
+  }
+  select.form-control:not([size]):not([multiple]) {
+    height:29px;
+   }
+  .form-control {
+    width: 340px;
+    height: 29px;
+  }
+  #need-help1 {
+    left: 75%;
+    top: 13%;
+  }
+  .beer-style {
+    left: 8%;
+    top: 15%;
+  }
+  .alcohol-strength {
+    left: 8%;
+    top: 23%;
+  }
+  .bitterness {
+    left: 8%;
+    top: 31%;
+  }
+  .additions {
+    left: 8%;
+    top: 42%;
+  }
+  .additions h4 {
+    font-size: 18px;
+  }
+  #additions-list .checkbox  {
+    font-size: 14px !important;
+   }
+
+  #bottle h4 {
+    margin-left: 33px;
+  }
+  #bottle #need-help2 {
+    left: 75%;
+  }
+  #bottle .image-holder {
+    height: 202px;
+  }
+  #bottle .image-holder img {
+    max-width: 19%;
+    margin-top: 5px;
+  }
+
+  #label h4 {
+    margin-left: 33px;
+  }
+  #label #need-help3 {
+    left: 75%;
+  }
+  #label .image-holder {
+    height: 178px;
+  }
+   #label .image-holder img {
+    max-width: 57%;
+    max-height: 92%;
+  }
+  #label .image-holder h2 {
+    margin-top: 16px;
+  }
+  #label p {
+    font-size: 13px;
+  }
+  #finish {
+    padding-left: 3%;
+  }
+  .rigth-finish p {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 8px;
+}
+
+  #SaveAccount {
+    left: 70%;
+}
+  #order-name,
+  #order-email,
+  #order-phone,
+  #order-address {
+    height: 30px;
+  }
+  textarea #order-comment .form-control {
+    height: 60px !important;
+  }
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 360px ) {
+
+  .beer-style {
+    left: 6%;
+  }
+  .alcohol-strength {
+    left: 6%;
+  }
+  .bitterness {
+    left: 6%;
+  }
+  .additions {
+    left: 6%;
+  }
+  .form-control {
+    width: 312px;
+  }
+  #addition-list .radio, .checkbox {
+    margin-bottom: 8px;
+  }
+  #other-addition {
+    width: 214px;
+  }
+   #bottle #need-help2 {
+    top: 19%;
+  }
+  #bottle .form-control {
+    width: 320px;
+  }
+  #bottle h4 {
+    margin-left: 19px;
+  }
+  #bottle .image-holder {
+    width: 316px;
+  }
+   #label #need-help3 {
+    top: 19%;
+  }
+  #label .form-control {
+    width: 320px;
+  }
+  #label h4 {
+    margin-left: 19px;
+  }
+  #label .image-holder {
+    width: 316px;
+  }
+  #label .image-holder h2 {
+    margin-top: 24px;
+    font-size: 17px;
+  }
+    #label .image-holder p {
+      font-size: 11px;
+    }
+    
+  .next {
+    left: 66%;
+  }
+  .prev {
+    left: 6%;
+  }
+  .left-finish input  {
+    width: 290px;
+  }
+  textarea.form-control {
+    width: 290px;
+  }
+  #SaveAccount {
+    left: 66%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+textarea:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+
+
+
+/*--------------------------------------------------------------
+12.2 Galleries
+--------------------------------------------------------------*/
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
+}
+
+ .page-title {
+  padding-top: 45px;
+}
+
+
+.btn_single_recipe {
+  margin-bottom: 80px;
+}
+
+.content {
+  margin-top: 48px;
+}
+
+
+
